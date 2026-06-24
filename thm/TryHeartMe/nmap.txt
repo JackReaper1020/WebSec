@@ -1,0 +1,38 @@
+# Nmap 7.99 scan initiated Wed Jun 24 19:49:46 2026 as: /usr/lib/nmap/nmap --privileged -T4 -Pn -A -oN nmap.txt 10.49.133.21
+Nmap scan report for 10.49.133.21
+Host is up (0.10s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.14 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 d5:a0:26:9c:4e:b6:1b:0d:33:f7:25:b4:69:a6:9a:dd (ECDSA)
+|_  256 99:d1:ac:01:77:e8:54:78:36:1c:22:66:86:a3:7d:8f (ED25519)
+5000/tcp open  http    Werkzeug httpd 3.0.1 (Python 3.12.3)
+|_http-server-header: Werkzeug/3.0.1 Python/3.12.3
+|_http-title: TryHeartMe \xE2\x80\x94 Shop
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.99%E=4%D=6/24%OT=22%CT=1%CU=30669%PV=Y%DS=3%DC=T%G=Y%TM=6A3BE7A
+OS:6%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)SEQ
+OS:(SP=106%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=107%GCD=1%ISR=10C%TI=Z%
+OS:CI=Z%II=RI%TS=A)SEQ(SP=108%GCD=1%ISR=10B%TI=Z%CI=Z%II=RI%TS=A)SEQ(SP=108
+OS:%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M4E8ST11NW7%O2=M4E8ST11NW7%O3=
+OS:M4E8NNT11NW7%O4=M4E8ST11NW7%O5=M4E8ST11NW7%O6=M4E8ST11)WIN(W1=F4B3%W2=F4
+OS:B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M4E8NNSNW7
+OS:%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=
+OS:Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%
+OS:RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 3 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 1720/tcp)
+HOP RTT       ADDRESS
+1   100.93 ms 192.168.128.1
+2   ...
+3   100.96 ms 10.49.133.21
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun 24 19:50:22 2026 -- 1 IP address (1 host up) scanned in 35.99 seconds
