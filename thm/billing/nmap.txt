@@ -1,0 +1,31 @@
+# Nmap 7.99 scan initiated Wed Jul  8 21:11:15 2026 as: /usr/lib/nmap/nmap --privileged -T4 -Pn -A -p- -oN nmap.txt 10.48.145.162
+Nmap scan report for 10.48.145.162
+Host is up (0.047s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+5038/tcp open  asterisk Asterisk Call Manager 2.10.6
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.99%E=4%D=7/8%OT=5038%CT=1%CU=39464%PV=Y%DS=3%DC=T%G=Y%TM=6A4E70
+OS:1D%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)SE
+OS:Q(SP=101%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=103%GCD=1%ISR=10C%TI=Z
+OS:%CI=Z%II=I%TS=A)SEQ(SP=105%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=107%
+OS:GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M4E8ST11NW7%O2=M4E8ST11NW7%O3=M
+OS:4E8NNT11NW7%O4=M4E8ST11NW7%O5=M4E8ST11NW7%O6=M4E8ST11)WIN(W1=F4B3%W2=F4B
+OS:3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M4E8NNSNW7%
+OS:CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y
+OS:%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%R
+OS:D=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%
+OS:S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPC
+OS:K=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 3 hops
+
+TRACEROUTE (using port 8080/tcp)
+HOP RTT      ADDRESS
+1   52.34 ms 192.168.128.1
+2   ...
+3   54.28 ms 10.48.145.162
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul  8 21:13:25 2026 -- 1 IP address (1 host up) scanned in 130.01 seconds
